@@ -1,0 +1,139 @@
+@import url(./vendor/normalize.css);
+.sheet {
+	width: 210mm;
+	background: #fff;
+	padding: 0 35px 35px 35px;
+}
+.cards {
+	display: flex;
+	justify-content: center;
+	/* margin-top: 30px; */
+	padding-top: 30px;
+}
+
+.cards:nth-child(4n) {
+	margin-bottom: 320px;
+}
+.card_left {
+	width: 100%;
+	margin-right: 37px;
+	/* background-color: rgb(232, 231, 231); */
+	min-height: 240px;
+	border: 0.5px dotted black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.card_right {
+	width: 100%;
+	/* background-color: rgb(232, 231, 231); */
+	border: 0.5px dotted black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* TEST */
+.logos {
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.elucid-logo {
+	width: 26%;
+	margin-left: 3.2%;
+	margin-top: 3.3%;
+}
+.yayra-logo {
+	width: 18%;
+	margin-right: 4.2%;
+	margin-top: 2.5%;
+}
+.id-header {
+	font-family: 'Hammersmith One', sans-serif;
+	text-decoration: underline 1px solid black;
+	text-align: center;
+	margin: 0 0 0 5%;
+	padding: 0;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+.farmer-image-container {
+	width: 25%;
+	height: 120px;
+	margin-left: 10px;
+	margin-top: 5%;
+}
+.farmer-image {
+	width: 100%;
+	height: inherit;
+	object-fit: cover;
+	filter: brightness(1.5);
+}
+.farmer {
+	display: flex;
+}
+.farmer-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.farmer-text {
+	display: flex;
+	justify-content: space-between;
+	margin: 5% 0 0 6%;
+}
+
+.farmer-col2 {
+	margin-left: 10%;
+}
+.info-title {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 50%;
+	width: max-content;
+}
+.info-text {
+	font-size: 55%;
+	font-weight: 100;
+	font-family: 'Rubik', sans-serif;
+	width: max-content;
+	margin: 4% 0;
+	padding: 0;
+	max-height: 110px;
+}
+.info-text-village {
+	width: 109px;
+}
+
+.underlay {
+	width: 100%;
+	/* margin-bottom: -7.1%; */
+}
+.if-found {
+	font-family: 'Hammersmith One', sans-serif;
+	text-align: center;
+	font-size: 9px;
+
+	/* width: 522px;
+	/* font-size: 25px; */
+	/* line-height: 35px;  */
+}
+.if-found-container {
+	width: 249px;
+	margin: 0 auto 0 auto;
+	/* margin-top: 86px;
+	margin-left: 30px;
+	margin-left: 243px; */
+}
+.underlay-back {
+	width: 100%;
+}
+.print-button {
+	cursor: pointer;
+	background: rgba(0, 128, 0, 0.506);
+	border-radius: 5px;
+	border: none;
+	margin-left: 36px;
+	/* padding: auto 20px; */
+}

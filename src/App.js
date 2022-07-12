@@ -116,7 +116,7 @@ const Cards = React.forwardRef((props, ref) => (
 						<div className='if-found-container'>
 							<p className='if-found'>
 								This card is Property of Elucid Social Ghana / Yayra
-								Glover . If found, please return to:
+								Glover . If found, please call:
 							</p>
 							<p className='if-found'>0263189022</p>
 						</div>

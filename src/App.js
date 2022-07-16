@@ -68,8 +68,16 @@ const Cards = React.forwardRef((props, ref) => (
 										{card.last_name}
 									</li>
 									<li className='farmer-list-item info-title'>
+										NHIS Number
+									</li>
+									{/* dummy text for now */}
+									<li className='farmer-list-item info-text'>
+										xxxxxxxxxxx
+									</li>
+									<li className='farmer-list-item info-title'>
 										Address
 									</li>
+									{/* This address to be changed to village name. Not home Address */}
 									<li className='farmer-list-item info-text info-text-village'>
 										{card.address}
 									</li>

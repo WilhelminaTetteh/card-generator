@@ -7,7 +7,6 @@
 .cards {
 	display: flex;
 	justify-content: center;
-	/* margin-top: 30px; */
 	padding-top: 30px;
 }
 
@@ -16,8 +15,7 @@
 }
 .card_left {
 	width: 100%;
-	margin-right: 37px;
-	/* background-color: rgb(232, 231, 231); */
+	margin-left: 37px;
 	min-height: 240px;
 	border: 0.5px dotted black;
 	display: flex;
@@ -26,14 +24,11 @@
 }
 .card_right {
 	width: 100%;
-	/* background-color: rgb(232, 231, 231); */
 	border: 0.5px dotted black;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
-
-/* TEST */
 .logos {
 	height: 20%;
 	display: flex;
@@ -94,7 +89,7 @@
 	width: max-content;
 }
 .info-text {
-	font-size: 55%;
+	font-size: 9px;
 	font-weight: 100;
 	font-family: 'Rubik', sans-serif;
 	width: max-content;
@@ -105,26 +100,20 @@
 .info-text-village {
 	width: 109px;
 }
-
+.membership-id {
+	font-size: 9.5px;
+}
 .underlay {
 	width: 100%;
-	/* margin-bottom: -7.1%; */
 }
 .if-found {
 	font-family: 'Hammersmith One', sans-serif;
 	text-align: center;
 	font-size: 9px;
-
-	/* width: 522px;
-	/* font-size: 25px; */
-	/* line-height: 35px;  */
 }
 .if-found-container {
 	width: 249px;
 	margin: 0 auto 0 auto;
-	/* margin-top: 86px;
-	margin-left: 30px;
-	margin-left: 243px; */
 }
 .underlay-back {
 	width: 100%;
@@ -135,5 +124,4 @@
 	border-radius: 5px;
 	border: none;
 	margin-left: 36px;
-	/* padding: auto 20px; */
 }

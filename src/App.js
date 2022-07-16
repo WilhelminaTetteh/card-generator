@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import ReactToPrint from 'react-to-print';
 import cards from '../src/data/cards.js';
 import elucid from './images/Elucid_logo_2.png';
-import yayra from './images/yayra-logo.png';
+import yayraglover from './images/yayraglover.png';
 import underlay from './images/Under-image.png';
 
 const Cards = React.forwardRef((props, ref) => (
@@ -20,7 +20,7 @@ const Cards = React.forwardRef((props, ref) => (
 							/>
 							<img
 								className='yayra-logo'
-								src={yayra}
+								src={yayraglover}
 								alt='yayra-logo'
 							/>
 						</div>
